@@ -167,7 +167,7 @@ initChownData: true
 
 persistence:
   enabled: true
-  storageClassName: "do-block-storage"
+  storageClassName: "standard"
   accessModes:
     - ReadWriteOnce
   size: 500Gi
