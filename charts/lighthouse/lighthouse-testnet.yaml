@@ -58,7 +58,7 @@ http:
   address: "0.0.0.0"
   allowOrigin: "*"
 
-checkpointSyncUrl: "https://holesky.beaconstate.info"
+checkpointSyncUrl: "https://beaconstate-holesky.chainsafe.io"
 
 targetPeers: 80
 
