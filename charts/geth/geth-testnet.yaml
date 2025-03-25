@@ -319,10 +319,10 @@ initChownData: true
 ##
 persistence:
   enabled: true
-  storageClassName: "do-block-storage"
+  storageClassName: "standard"
   accessModes:
     - ReadWriteOnce
-  size: 500Gi
+  size: 50Gi
   annotations: {}
 
 ## Node labels for pod assignment
