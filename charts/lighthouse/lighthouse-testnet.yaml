@@ -29,6 +29,8 @@ global:
   readinessProbe:
     enabled: false
 
+extraFlags:
+  - "--disable-deposit-snapshot-sync"
 initImage:
   repository: "bitnami/kubectl"
   tag: "1.24"
