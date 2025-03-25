@@ -5,7 +5,7 @@ global:
 
   JWTSecret: "5acbeb8282e1dafba5ee75534b4d8ef0312362edc935bab8be1bf9a46f6779ba"
 
-  executionEndpoints: ["http://geth.geth.svc.cluster.local.:8551"]
+  executionEndpoints: ["http://geth-testnet.geth-testnet.svc.cluster.local.:8551"]
 
   imagePullSecrets: []
 
